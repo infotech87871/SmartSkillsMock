@@ -18,10 +18,10 @@ public class P01SeleniumPrac extends BaseHelperClass {
 		
 		excelRead("C:\\Users\\UsEr\\eclipse-workspace_01\\SmartSkillsMockPractise\\Screenahots\\LoginFbData1.xlsx", "LoginFb", 3, 4, "dd-MMM-yyyy");
 		WebDriver driver = new ChromeDriver();
+		driver.get("www.flipkart.com");
 		driver.manage().window().maximize();
-		driver.get("www.facebook.com");
-		
-	}
+		driver.get("www.facebook.com");	
+		}
 	
 	
 	

@@ -17,6 +17,9 @@ public class P01SeleniumPrac extends BaseHelperClass {
 	public static void main(String[] args) throws IOException {
 		
 		excelRead("C:\\Users\\UsEr\\eclipse-workspace_01\\SmartSkillsMockPractise\\Screenahots\\LoginFbData1.xlsx", "LoginFb", 3, 4, "dd-MMM-yyyy");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("www.facebook.com");
 		
 	}
 	
